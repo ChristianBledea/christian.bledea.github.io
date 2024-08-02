@@ -1,11 +1,10 @@
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #333;
-    background-color: #f5f5dc; /* Cream-colored background */
+    background-color: #f5f5dc; 
     line-height: 1.6;
     text-align: center;
 }
@@ -23,7 +22,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: #4CAF50;
-    padding: 1.5rem 2rem; /* Decreased padding for a smaller navbar */
+    padding: 1.5rem 2rem; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -31,7 +30,7 @@ nav {
 }
 
 nav .logo {
-    font-size: 1.75rem; /* Slightly decreased font size */
+    font-size: 1.75rem; 
     font-weight: bold;
     color: white;
 }
@@ -85,7 +84,7 @@ section p, section ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Projects Section */
+
 .projects-grid {
     display: flex;
     justify-content: space-around;
@@ -195,7 +194,7 @@ footer p {
     }
 
     section h2 {
-        font-size: 1.5rem; /* Adjusted for smaller screens */
+        font-size: 1.5rem; 
     }
 
     .about-section .about-content {
