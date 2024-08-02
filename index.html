@@ -1,81 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                  <a class = "picture" href="index.html"><li class="profile">Photo</a></li>
-                    <li class="menu"><a class="text" href="index.html">Home</a></li>
-                    
-                    <li class="menu"><a class="text" href="contact.html">Contacts</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div></div>
-        <div></div>
-        
-        <h3 class="title"><a href="#"> About me</a></h3>
-        <section class="info">
-            
-            <p>Hello! My name is Bledea Christian, and I am currently a second-year student majoring in Computer Science. My journey in the realm of technology has been both challenging and rewarding, driving my passion for coding, problem-solving, and continuous learning. As I delve deeper into my studies, I am excited to explore the vast opportunities that computer science offers, from developing innovative software solutions to contributing to cutting-edge research. My academic and personal experiences are shaping me into a versatile and adept individual, ready to tackle the dynamic and ever-evolving field of technology.</p>
-            
-        </section>
-        <h3 class="title"><a href="#"> Education</a></h3>
-        <section class="info">
-            <div class="container">
-              <div class="text">
-                <p>After Graduating Highschool in 2022 from "Moise Nicoara" National College in Arad,</p>
-              </div>
-                <div class="image">
-                  <img src="immg/im1.jpg">
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">My Website</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+    <section id="home" class="container">
+        <h2>Home</h2>
+        <p>Hello! My name is Bledea Christian, and I am currently a second-year student majoring in Computer Science. My journey in the realm of technology has been both challenging and rewarding, driving my passion for coding, problem-solving, and continuous learning. As I delve deeper into my studies, I am excited to explore the vast opportunities that computer science offers, from developing innovative software solutions to contributing to cutting-edge research. My academic and personal experiences are shaping me into a versatile and adept individual, ready to tackle the dynamic and ever-evolving field of technology.</p>
+    </section>
+    <section id="about" class="container about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="img/IMG_0039.JPG" alt="Your Name" class="profile-pic">
+            <p>After Graduating Highschool in 2022 from "Moise Nicoara" National College in Arad, I went on to study Computer Technology and Information at the Poytechnic University of Timisoara, where i am currently heading into my 3rd year pursuing a degree in Computer Technology and information.</p>
+            <p>From July 2023 until April 2024, I also interned in System Engineering at Continental Automotive</p>
+            <p>Some of my hobbies are literature, cinema, sports, chess, spending time with family and friends and treaveling.</p>
+        </div>
+    </section>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <p>Here are some of my notable projects:</p>
+        <div class="projects-grid">
+            <div class="project-item">
+                <h3>Chess game</h3>
+                <p>In C programming language</p>
+                <p>2 playing modes: player versus player and player versus computer</p>
+            </div>
+            <div class="project-item">
+                <h3>Connect 4 game</h3>
+                <p>In Python programming language</p>
+                <p>One mode: player versus player</p>
+            </div>
+            <div class="project-item">
+                <h3>Benchmarking tool</h3>
+                <p>In Java programming language</p>
                 
             </div>
-            <div class="container">
-                <div class="image">
-                  <img src="immg/im2.jpg">
-                </div>
-                <div class="text">
-                  <p>I went on to study Computer Technology and Information at the Poytechnic University of Timisoara, where i am currently heading into my 3rd year pursuing a degree in Computer Technology and information</p>
-                </div>
-            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contact-links">
+            <a href="https://www.instagram.com/bledea_christian/">
+                <img src="img/lg3.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/christian-bledea-042399294/">
+                <img src="img/lg2.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/ChristianBledea">
+                <img src="img/lg1.png" alt="GitHub">
+            </a>
+        </div>  
+    </footer>
 
-            
-            
-            
-        </section>
-
-        <h3 class="title"><a href="#"> Additional information</a></h3>
-        <section class="info">
-          <h4>Technical skills</h4>
-            <ul class="list">
-              <li>Java</li>
-              <li>C</li>
-              <li>Python</li>
-              <li>Operating Systems</li>
-              <li>OOP concepts</li>
-              <li>Algotrithms</li>
-              <li>Analytical Skills</li>
-              <li>Problem Solving</li>
-            </ul>
-            <h4>Hobbies</h4>
-            <ul class="list">
-              <li>Literature</li>
-              <li>Cinema</li>
-              <li>Chess</li>
-              <li>Volleyball</li>
-              <li>Football</li>
-              <li>Motorsports</li>
-              <li>Spending time with friends and family</li>
-              <li>Traveling</li>
-            </ul>
-            
-        </section>
-
-        <script src="scripts.js"></script>
-        
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
